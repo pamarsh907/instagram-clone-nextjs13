@@ -7,7 +7,7 @@ import { HomeIcon } from '@heroicons/react/24/solid'
 
 export default function Header() {
   return (
-
+    <div className='shadow-sm border-b sticky top-0 bg-white z-30'>
         <div className='flex items-center justify-between max-w-6xl mx-4 xl:mx-auto'>
             <div className='cursor-pointer h-24 w-24 relative hidden lg:inline-grid'>
                 <Image
@@ -36,8 +36,6 @@ export default function Header() {
                 <img src="https://yt3.googleusercontent.com/bkh2hC8aY-IQfQhykosVfnWZsUXK0dgxBaqJst7t5fbBO8qZWGy31h98l0qNuR4qWU59csDW8w=s176-c-k-c0x00ffffff-no-rj" alt="user-image" className='h-10 rounded-full cursor-pointer'/>
             </div>
         </div>
-
-
-    
+    </div>
   )
 }
